@@ -1,0 +1,24 @@
+# Debug plugins
+plugins/log-deprecated-notices
+plugins/monster-widget
+plugins/query-monitor
+plugins/user-switching
+db.php
+
+# Content directory
+*.log
+uploads
+upgrades
+
+# Local dev files often committed in error.
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.vscode
+*.sublime-project
+*.sublime-workspace
+node_modules
