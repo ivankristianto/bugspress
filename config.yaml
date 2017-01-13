@@ -1,0 +1,16 @@
+# Chassis Configuration
+#
+# See: http://docs.chassis.io/en/latest/config/
+
+hosts:
+    - bugspress.local
+
+apt_mirror: Yes
+
+php: 7.0
+
+extensions:
+  - Chassis/nodejs
+  - Chassis/Composer
+  - Chassis/Fish
+  - Chassis/Xdebug
